@@ -14,7 +14,7 @@ export default class GetHistoricalFactController {
 
       reply.send(historicalFact);
     } else {
-      reply.status(400).send({ erro: 'O ano informado é inválido' });
+      reply.status(400).send({ mensagem: 'O ano informado é inválido' });
     }
   }
 }

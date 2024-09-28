@@ -13,8 +13,6 @@ export default class GetHistoricalFactService {
       );
       return facts;
     } catch (error) {
-      console.log(error);
-
       return null;
     }
   }
@@ -30,10 +28,10 @@ export default class GetHistoricalFactService {
   async execute(yearEntered: string) {
     const facts = await this.getData(urlData);
     if (facts !== null) {
-      const selectedFact = this.findFact(facts!, Number(yearEntered));
-      return selectedFact;
+      const selectedFact = this.findFact(facts, Number(yearEntered));
+      return { mensagem: selectedFact };
     } else {
-      return { erro: 'Fato histórico não encontrado' };
+      return { mensagem: 'Fato histórico não encontrado' };
     }
   }
 }
