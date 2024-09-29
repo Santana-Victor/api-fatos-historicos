@@ -31,9 +31,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 2. Instale os pacotes utilizando o comando `npm install`
 
-3. Vá até o arquivo `.env.example` na raiz do projeto e renome-o para `.env`.
+3. Vá até o arquivo `.env.example` na raiz do projeto e renome-o para `.env`
 
-4. Execute o projeto com o comando `npm run dev`
+4. Ainda no arquivo `.env` preencha a variável `DOMAIN_ACCESS_ALLOWED`, por exemplo: `localhost:5173/facts`
+
+5. Execute o projeto com o comando `npm run dev`
 
 ## Exemplo
 
@@ -60,6 +62,6 @@ siga os passos abaixo:
    }
    ```
 
-### Frontend
+### Front-end
 
 Link do [repositório](https://github.com/Santana-Victor/fatos-historicos.git)
