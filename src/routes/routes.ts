@@ -1,5 +1,5 @@
 import { FastifyInstance, FastifyRequest, FastifyReply } from 'fastify';
-import GetHistoricalFactController from '../controllers/GetHistoricalFactController';
+import GetHistoricalFactController from '../controllers/GetHistoricalFact.controller';
 
 export default async function routes(fastify: FastifyInstance) {
   fastify.get(

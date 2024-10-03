@@ -1,6 +1,6 @@
 import { FastifyRequest, FastifyReply } from 'fastify';
-import YearEnteredValidator from '../validators/YearEnteredValidator';
-import GetHistoricalFactService from '../services/GetHistoricalFactService';
+import YearEnteredValidator from '../validators/YearEntered.validator';
+import GetHistoricalFactService from '../services/GetHistoricalFact.service';
 
 export default class GetHistoricalFactController {
   async handle(request: FastifyRequest, reply: FastifyReply) {
