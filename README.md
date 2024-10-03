@@ -46,7 +46,7 @@ siga os passos abaixo:
 
    - Máquina local:
      ```shell
-     localhost:8080/facts/:year
+     http://localhost:8080/facts/:year
      ```
    - Servidor Web:
      ```shell
