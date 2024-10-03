@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 3. Vá até o arquivo `.env.example` na raiz do projeto e renome-o para `.env`
 
-4. Ainda no arquivo `.env` preencha a variável `DOMAIN_ACCESS_ALLOWED`, por exemplo: `localhost:5173/facts`
+4. Ainda no arquivo `.env` preencha a variável `DOMAIN_ACCESS_ALLOWED`, por exemplo: `http://localhost:5173`
 
 5. Execute o projeto com o comando `npm run dev`
 
