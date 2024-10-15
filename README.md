@@ -44,14 +44,9 @@ siga os passos abaixo:
 
 1. Endpoint:
 
-   - Máquina local:
-     ```shell
-     http://localhost:8080/facts/:year
-     ```
-   - Servidor Web:
-     ```shell
-     https://api-fatos-historicos.onrender.com/facts/:year
-     ```
+   ```shell
+   http://localhost:8080/facts/:year
+   ```
 
 2. Substitua `:year` por `2020` por exemplo.
 
